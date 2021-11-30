@@ -17,6 +17,6 @@ const Offertoro = NativeModules.Offertoro
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Offertoro.multiply(a, b);
+export function show(appId: string, secretKey: string, pubUid = ''): void {
+  Offertoro.show(appId, secretKey, pubUid);
 }
