@@ -1,6 +1,6 @@
 {
   "name": "react-native-offertoro",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "integration with offertoro sdk",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
